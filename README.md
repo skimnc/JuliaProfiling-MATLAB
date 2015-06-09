@@ -1,6 +1,10 @@
 # JuliaProfiling-MATLAB
 MATLAB code that will process the profiling printout of Julia code.
 
+## Posted on the web
+As of last push, this is posted here:
+http://people.cam.cornell.edu/~zc227/extras/julia_profile.html
+
 ## Information
 The script provided here will take the "flat" profiling results from Julia code and interpret it by percentage of backtraces. This is useful as the printout can be hard to interpret (functions appearing multiple times with only the number of backtraces reported). This was developed using Julia v0.3-prerelease. 
 
